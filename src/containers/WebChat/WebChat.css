@@ -1,0 +1,21 @@
+.Section {
+  display: flex;
+  height: 100%;
+}
+.Section > article {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.Section .configWindow {
+  flex: 1 1 20%;
+  background: rgba(157, 203, 154, 0.3);
+}
+.Section .videoWindow {
+  flex: 2 2 60%;
+  margin: 2%;
+  background: rgba(123, 174, 201, 0.3)
+}
+.Section .chatWindow {
+  flex: 1 1 20%;
+  background: rgba(157, 203, 154, 0.3)
+}

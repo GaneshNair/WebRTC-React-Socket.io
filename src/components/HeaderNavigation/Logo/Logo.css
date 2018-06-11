@@ -1,0 +1,10 @@
+.Logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.Logo img {
+    height: 100px;
+}

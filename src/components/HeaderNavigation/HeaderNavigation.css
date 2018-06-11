@@ -1,0 +1,9 @@
+.MainHeader {
+  background: rgba(240, 240, 240, 0.4);
+}
+.MainHeader .heading {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px;
+  color: #006EA6;
+}

@@ -1,0 +1,63 @@
+.ConfigWindow {
+  padding: 1%;
+}
+.ConfigWindow label {
+  display: block;
+  margin-bottom: 3px;
+}
+.ConfigWindow input {
+  display: block;
+  margin-bottom: 20px;
+  border: 2px dotted #ccc;
+  padding: 2px 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 35px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 300;
+}
+.ConfigWindow input:active, .ConfigWindow input:focus {
+  outline: none;
+}
+.ConfigWindow .ownLabel {
+
+}
+.ConfigWindow .ownInput {
+
+}
+.ConfigWindow .otherLabel {
+
+}
+.ConfigWindow .otherInput {
+
+}
+.ConfigWindow .initiateBtn {
+  border: 1px solid #fff;
+  padding: 2px 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 35px;
+  width: 45%;
+  background-color: #21A049;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  opacity: 0.5;
+  pointer-events: none;
+}
+.ConfigWindow .connectBtn {
+    border: 1px solid #fff;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 35px;
+    width: 45%;
+    background-color: #21A049;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+}
+.waitingText {
+  color: red;
+}
